@@ -325,6 +325,39 @@ a:visited {
   fill: var(--blue-color);
 }
 
+/* Form */
+.modal-form {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.form-field input {
+  height: 40px;
+}
+
+.form-field textarea {
+  resize: none;
+  height: 120px;
+  padding: 12px 16px;
+}
+
+.form-field label {
+  text-align: left;
+}
+
 /* Benefits */
 
 /* Hidden title - universal */
@@ -617,6 +650,7 @@ a:visited {
   align-items: center;
 }
 
+/* Subscribe form */
 .subscribe {
   width: 570px;
   height: 86px;
@@ -642,7 +676,6 @@ a:visited {
 }
 
 .form .email {
-  /* margin: 0; */
   width: 358px;
   height: 50px;
   padding: 15px 16px;
